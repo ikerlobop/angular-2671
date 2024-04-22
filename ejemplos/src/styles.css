@@ -1,20 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-
 * {
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: sans-serif;
-    margin: 0;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+:root {
+  --primary-color: #605DC8;
+  --secondary-color: #8B89E6;
+  --accent-color: #e8e7fa;
+  --shadow-color: #E8E8E8;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(73, 73, 227);
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
+button.primary {
+  padding: 10px;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px;
 }
